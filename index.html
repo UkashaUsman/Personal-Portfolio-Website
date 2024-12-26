@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ukasha's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/441cce8988.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <nav>
+          <h1>UKASHA</h1>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="firstSection" id="home">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Ukasha</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <a href="./images/Ukasha Resume!.pdf" download class="btn btn1 btn2">Download Resume</a>
+            <a href="https://github.com/UkashaUsman" target="_blank" class="btn btn1 btn2">Visit Github</a>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="./images/img.png" />
+        </div>
+      </section>
+
+      <section class="secondSection" id="about">
+        <div class="leftSection">
+          <img src="./images/img.png" />
+        </div>
+        <div class="rightSection">
+          <h1>About Me</h1>
+          <p>
+            Hello! I'm Ukasha, a final-year Software Engineering student at
+            SSUET, passionate about creating visually appealing and
+            user-friendly digital experiences. My expertise includes web
+            development, graphic designing, frontend development, and UI/UX
+            design. <br /><br />
+            I specialize in building responsive websites and crafting intuitive
+            interfaces with a strong focus on user experience. With a dedication
+            to learning and innovation, I stay updated with the latest design
+            trends and technologies to deliver seamless and impactful solutions.
+          </p>
+
+          <div class="tabs">
+            <p class="tab-links active-link" onclick="opentab('skills')">
+              Skills
+            </p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li>
+                <span>UI/UX Design</span><br />Designing user-centric and
+                visually appealing interfaces.
+              </li>
+              <li>
+                <span>Web Development</span><br />Building responsive websites
+                with HTML, CSS, and JavaScript.
+              </li>
+              <li>
+                <span>Frontend Development</span><br />Creating interactive and
+                high-performing user interfaces.
+              </li>
+              <li>
+                <span>Graphic Design</span><br />Designing visuals using Canva
+                and Adobe Illustrator.
+              </li>
+              <li>
+                <span>Prototyping & Wireframing</span><br />Visualizing
+                workflows with functional prototypes.
+              </li>
+              <li>
+                <span>Responsive Design</span><br />Delivering seamless
+                experiences across all devices.
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li>
+                <span>Sep 2024 - Present</span><br />Frontend Developer - Lenaar
+                Digital
+              </li>
+              <li>
+                <span>Aug 2024 - Sep 2024</span><br />Frontend Web Development
+                Trainee - Sofject
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li>
+                <span>2021 - Present</span><br />Sir Syed University of
+                Engineering & Technology (SSUET)
+              </li>
+              <li><span>2019 - 2021</span><br />Commecs College</li>
+              <li><span>2017 - 2019</span><br />St. Patrick's High School</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="thirdSection" id="services">
+        <h1>My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Designing</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ipsum et harum, hic recusandae delectus doloremque accusamus? Ea dolore autem deserunt corporis accusamus. Cupiditate commodi deserunt iure nam! Praesentium voluptate illum suscipit.</p>
+            <a href="#">Learn more...</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Designing</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ipsum et harum, hic recusandae delectus doloremque accusamus? Ea dolore autem deserunt corporis accusamus. Cupiditate commodi deserunt iure nam! Praesentium voluptate illum suscipit.</p>
+            <a href="#">Learn more...</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>Graphic Designing</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ipsum et harum, hic recusandae delectus doloremque accusamus? Ea dolore autem deserunt corporis accusamus. Cupiditate commodi deserunt iure nam! Praesentium voluptate illum suscipit.</p>
+            <a href="#">Learn more...</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="fourthSection" id="portfolio">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="./images/img1.jpg">
+            <div class="layer">
+              <h3>Rock-Pape-Scissor Game</h3>
+              <p>A classic Rock, Paper, Scissors game built using HTML, CSS, and JavaScript. Play against the computer, and get instant feedback on your moves. The game keeps track of scores and offers a simple, interactive experience. Fully responsive for both mobile and desktop users.</p>
+              <a href="https://github.com/UkashaUsman/Rock-Paper-Scissor-Game" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/img1.jpg">
+            <div class="layer">
+              <h3>Currency Converter</h3>
+              <p>A simple and responsive web-based currency converter application built using HTML, CSS, and JavaScript. This project allows users to convert amounts between different currencies like USD, EUR, GBP, INR, and PKR. It features a clean user interface and real-time conversion results.</p>
+              <a href="https://github.com/UkashaUsman/Currency-Converter" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/img1.jpg">
+            <div class="layer">
+              <h3>Gourmet Au Catering</h3>
+              <p>The Gourmet Au Catering is a fully responsive static website designed to showcase catering services. It provides an elegant and user-friendly layout with sections for services, menu items, customer testimonials, and a contact form.</p>
+              <a href="https://github.com/UkashaUsman/Gourmet-Au-Catering" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn1">See more</a>
+      </section>
+
+      <section class="fifthSection" id="contact">
+        <div class="contact-left">
+          <h1>Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i> ukashausman021@gmail.com</p>
+          <p><i class="fa-solid fa-square-phone"></i> 0336-2871203</p>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/ukashausman/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/UkashaUsman" target="_blank"><i class="fa-brands fa-github"></i></a>
+          </div>
+          <a href="./images/Ukasha Resume!.pdf" download class="btn1 btn2">Download Resume</a>
+        </div>
+        <div class="contact-right">
+          <form>
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn1 btn2 btn3">Submit</button>
+          </form>
+        </div>
+      </section>
+      <div class="copyright">
+        <p>Copyright &copy; Ukasha.</p>
+      </div>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "FrontEnd Developer!",
+          "Graphic Designer!",
+          "UI/UX Designer!",
+          "JavaScript Developer!",
+          "Canva Designer!",
+          "Web Designer!",
+        ],
+        typeSpeed: 50,
+        loop: true, // Ensures the animation repeats
+      });
+
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+</html>
